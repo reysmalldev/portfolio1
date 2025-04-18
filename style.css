@@ -36,7 +36,6 @@ body {
     align-items: center;
     list-style: none;
     gap: 20px;
-    
 }
 
 .navbar ul li a {
@@ -54,12 +53,10 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 150px 0;
-    border: 1px solid red;
 }
 
 .sec1 {
     width: 600px;
-    border: 1px solid red;
 }
 
 .sec1 h1 {
@@ -77,6 +74,7 @@ body {
 
 .sec2 {
     width: 400px;
+    padding: 25px;
     /* border: 1px solid red; */
 }
 
@@ -110,17 +108,35 @@ body {
 
 .about {
     /* border: 1px solid red; */
-    padding: 25px;
 }
 
 .my-work {
     /* border: 1px solid red; */
-    padding: 25px;
 }
 
 hr {
+    width: 100%;
+    margin-top: 35px;
     border: none;
     height: 3px;
     background-color: #292b30;
-    margin: 30px 35px;
 }
+
+.flex-container {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.icon {
+    font-size: 30px;
+    color: white;
+    margin: 0 10px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
